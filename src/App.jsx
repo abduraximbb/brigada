@@ -13,6 +13,8 @@ function App() {
           <li>Mushtariy opa-Service</li>
           <li>Abduraxim - Company</li>
           <li>Abdulvahhob-Career</li>
+          <li>Login</li>
+          <li>notfound</li>
         </ul>
       </main>
       <Footer />
