@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import TopSection from "./TopSection";
 
 const Company = () => {
   return (
-    <div>Company</div>
-  )
-}
+    <TopSection/>
+  );
+};
 
-export default Company
+export default Company;
