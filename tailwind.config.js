@@ -13,6 +13,9 @@ export default {
         "2xl": "1280px",
       },
     },
+    fontFamily: {
+      Poppins: ['Poppins', 'ui-sans-serif','system-ui']
+    }
   },
   plugins: [],
 };
