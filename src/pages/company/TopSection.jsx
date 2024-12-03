@@ -14,7 +14,7 @@ const TopSection = () => {
       id="company"
       className="w-full flex flex-col mt-10 py-10 px-5 border-2 border-red-500"
     >
-      <div className="w-[75%] mx-auto flex justify-between">
+      <div className="w-[75%] mx-auto flex justify-between items-start">
         <img src={leftCubic} alt="" />
         <img src={rightCubics} alt="" />
       </div>
