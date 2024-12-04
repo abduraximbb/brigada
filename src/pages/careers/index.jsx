@@ -5,11 +5,15 @@ import CultureSection from "./CultureSection";
 
 const Career = () => {
   return (
-    <div className="container font-Poppins">
-      <Header />
-      <CareersSection />
-      <CultureSection />
-    </div>
+    <>
+      <div className="container font-Poppins">
+        <Header />
+        <CareersSection />
+      </div>
+      <div className="relative">
+        <CultureSection />
+      </div>
+    </>
   );
 };
 

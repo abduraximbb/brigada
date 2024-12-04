@@ -60,7 +60,7 @@ const CAREER_LIST = [
 
 const CareersSection = () => {
   return (
-    <div className="border bg-[#ECF8F9] grid grid-cols-3 gap-8 py-[78px] px-[78px] max-lg:grid-cols-2 max-lg:gap-4 max-md:grid-cols-1 max-md:px-[36px] max-md:py-[36px]">
+    <div className="bg-[#ECF8F9] grid grid-cols-3 gap-8 py-[78px] px-[78px] max-lg:grid-cols-2 max-lg:gap-4 max-md:grid-cols-1 max-md:px-[36px] max-md:py-[36px]">
       {CAREER_LIST.map((career) => (
         <div
           key={career.id}
