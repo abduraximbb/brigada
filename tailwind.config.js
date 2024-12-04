@@ -6,9 +6,10 @@ export default {
     container: {
       center: true,
       screens: {
+        xs: "350px",
         sm: "600px",
         md: "728px",
-        lg: "984px",
+        lg: "1024px",
         xl: "1280px",
         "2xl": "1280px",
       },
