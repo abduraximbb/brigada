@@ -5,29 +5,30 @@ import mainfoto2 from "../../assets/f2.png";
 import mainfoto3 from "../../assets/f3.png";
 import leftCubic from "../../assets/leftCubic.svg";
 import rightCubics from "../../assets/rightCubics.svg";
-import purpleCubic from "../../assets/purpleCubic.svg"
-import line from "../../assets/line.svg"
+import purpleCubic from "../../assets/purpleCubic.svg";
+import line from "../../assets/line.svg";
+import logoBar from "../../assets/logoBar.png"
 
 const TopSection = () => {
   return (
     <>
-      <div className="container mt-[80px] border-3 border-red-700">
-        <div className="w-[94%] mx-auto flex justify-between items-start border-3 border-red-700">
+      <div className="container mt-[80px]">
+        <div className="w-[94%] mx-auto flex justify-between items-start">
           <img src={leftCubic} alt="" />
           <img src={rightCubics} alt="" />
         </div>
       </div>
 
       {/* Header Section */}
-      <div className="container border-2 border-green-500">
-        <div className="w-[80%] flex flex-col pl-9 gap-6 items-start text-center border-2 border-blue-500">
+      <div className="container">
+        <div className="w-[80%] flex flex-col pl-9 gap-6 items-start text-center">
           <p className="text-sm uppercase font-Poppins text-[#232536] tracking-wide border-2">
             Company
           </p>
-          <h2 className="text-[36px] text-[#232536] w-[50%] font-Poppins leading-snug text-start border-2 border-red-300">
+          <h2 className="text-[36px] text-[#232536] w-[50%] font-Poppins leading-snug text-start">
             Award-winning Company seen and used by millions around the world
           </h2>
-          <p className="text-[14px] text-[#4d4d4d] font-Poppins w-[60%] leading-relaxed text-start  border-2 border-red-300">
+          <p className="text-[14px] text-[#4d4d4d] font-Poppins w-[60%] leading-relaxed text-start">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The Maker
             is a decentralized
@@ -36,7 +37,7 @@ const TopSection = () => {
 
         {/* Images Section */}
         <div className="container">
-          <div className="flex gap-5 mt-10 justify-center  border-2 border-green-500">
+          <div className="flex gap-5 mt-10 justify-center">
             <img
               src={mainfoto1}
               alt="Company Award 1"
@@ -56,8 +57,8 @@ const TopSection = () => {
         </div>
       </div>
 
-      <div className="container mt-10 border-2 border-red-400">
-        <div className="border-2 border-red-400 grid grid-cols-2 px-9">
+      <div className="container mt-10">
+        <div className="grid grid-cols-2 px-9">
           <div className="flex flex-col gap-4">
             <div>
               <img src={purpleCubic} alt="" />
@@ -79,28 +80,32 @@ const TopSection = () => {
           </div>
 
           <div className="bg-[#FFD3AF91] grid grid-cols-2">
-            <div className="border-2 border-red-400 flex flex-col gap-2 justify-center items-start pl-20">
+            <div className="flex flex-col gap-2 justify-center items-start pl-20">
               <p>1560+</p>
               <img src={line} alt="" className="w-[20%]" />
               <p>Project Delivered</p>
             </div>
-            <div className="border-2 border-red-400 flex flex-col gap-2 justify-center items-start ">
+            <div className="flex flex-col gap-2 justify-center items-start ">
               <p>950+</p>
               <img src={line} alt="" className="w-[14%]" />
               <p>Happy Client</p>
             </div>
-            <div className="border-2 border-red-400 flex flex-col gap-2 justify-center items-start pl-20">
+            <div className="flex flex-col gap-2 justify-center items-start pl-20">
               <p>100+</p>
               <img src={line} alt="" className="w-[20%]" />
               <p>Professional</p>
             </div>
-            <div className="border-2 border-red-400 flex flex-col gap-2 justify-center items-start">
+            <div className="flex flex-col gap-2 justify-center items-start">
               <p>10yrs</p>
               <img src={line} alt="" className="w-[14%]" />
               <p>Experience</p>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="container mt-10 px-10">
+        <img src={logoBar} alt="" className="h-[80%]"/>
       </div>
     </>
   );

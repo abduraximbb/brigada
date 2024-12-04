@@ -6,7 +6,6 @@ import Home from "../pages/home/Home";
 import Service from "../pages/service/Service";
 import Career from "../pages/careers";
 import NotFound from "../pages/not-found/NotFound";
-import Login from "../pages/login/Login";
 
 
 const Router = () => {
@@ -19,7 +18,6 @@ const Router = () => {
         <Route path="/careers" element={<Career />} />
         <Route path="*" element={<NotFound />} />
       </Route>
-      <Route path="login" element={<Login />} />
     </Routes>
   );
 };
